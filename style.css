@@ -1,0 +1,856 @@
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    background-color: #232323;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    margin-top: -9px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-bottom: -5px;
+}
+.navbar .imdblogo>a>img{
+    height: 35px;
+}
+.navbar .hamburgermenu p{
+    height: 2px;
+    width: 15px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0%;
+    margin-bottom: 2px;
+}
+.navbar .hamburgermenu{
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.navbar .menu p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin: 0%;
+    font-weight: 500;
+}
+.navbar .menu{
+    margin: 0%;
+    width: 80px;
+}
+.navbar .hammenu{
+    display: flex;
+    width: 80px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.navbar .hammenu:hover{
+    border-radius: 20px;
+    cursor: pointer;
+    width: 80px;
+    background-color: gray;
+    color: black;
+    height: 27px;
+}
+.searchbar>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+    width: 35px;
+    height: 29px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-weight: 600;
+    margin: 0%;
+    margin-top: 4.5px;
+}
+.searchbar>p:hover{
+    cursor: pointer;
+    background-color: #dddddd;
+}
+.searchbar .inputvalue{
+    width: 650px;
+    height: 27px;
+    margin-top: 4px;
+}
+.searchbar img{
+    height: 20px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+.inputvalue:focus{
+    outline-width: 2px;
+    font-size: 15px;
+}
+.searchbar{
+    display: flex;
+}
+.imdbprologo>img{
+    height: 20px;
+    width: 80px;
+}
+.imdbprologo{
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.columnline>p{
+    width: 1px;
+    height: 50px;
+    background-color: gray;
+}
+.columnline{
+    margin: 0%;
+    padding: 0%;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+.watchlistlogo>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 0%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.watchlistlogo:hover{
+    cursor: pointer;
+}
+.watchlistlogo{
+    margin-left: 8px;
+}
+.signin>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.signin{
+    margin-left: 10px;
+    width: 58px;
+}
+.signin:hover{
+    cursor: pointer;
+}
+.language>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin: 0%;
+    margin-top: 5px;
+    padding: 5px;
+}
+.language:hover{
+    cursor: pointer;
+}
+.language{
+    margin-left: 6px;
+}
+.whattowatch>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 50px;
+}
+.whattowatch{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.differenttabs li{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0%;
+}
+.differenttabs .watchguide a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0%;
+}
+.differenttabs .fanfavorites a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0%;
+}
+.differenttabs .toppicks a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0%;
+}
+.differenttabs .watchlist a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    margin: 0%;
+}
+.differenttabs{
+    padding-left: 0px;
+    margin: 0%;
+    margin-left: -50px;
+}
+.differenttabs ul{
+    display: flex;
+    margin: 0%;
+}
+.differenttabs li:hover{
+    background-color: #232323;
+    cursor: pointer;
+}
+.differenttabs .watchguide{
+    border-bottom: 3px solid skyblue;
+}
+.streamingguides>.column{
+    width: 3px;
+    height: 30px;
+    background-color: yellow;
+    margin: 0%;
+    margin-top: 2px;
+}
+.streamingguides .streamingguidestext{
+    color: white;
+    font-size: 25px;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.streamingguides{
+    display: flex;
+    margin: 0%;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+.everythingcomingtoott>p{
+    color: gray;
+    font-size: 19px;
+    margin-left: 18px;
+    margin-top: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.moviesonhulu img{
+    height: 190px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesonhulu p{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesonhulu{
+    width: 400px;
+    margin-left: 30px;
+}
+.moviesonhulu span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesonhulu p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonhulu span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonhulu .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.moviesondisney .movies img{
+    height: 180px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesondisney p{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesondisney{
+    width: 400px;
+}
+.moviesondisney span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesondisney p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesondisney span:hover{
+    color: skyblue;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.moviesondisney .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.moviesonprime .movies img{
+    height: 170px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesonprime p{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesonprime{
+    width: 400px;
+    margin: 0%;
+}
+.moviesonprime span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesonprime p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonprime span:hover{
+    color: skyblue;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.moviesonprime .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.firstrow{
+    display: flex;
+    gap: 10px;
+}
+.moviesonmax .movies img{
+    height: 180px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesonmax p{
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesonmax{
+    width: 400px;
+    margin-left: 30px;
+}
+.moviesonmax span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesonmax p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonmax span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonmax .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.moviesontv .movies img{
+    height: 170px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesontv p{
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesontv{
+    width: 400px;
+    margin-left: 30px;
+}
+.moviesontv span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesontv p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesontv span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesontv .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.moviesonnetflix .movies img{
+    height: 170px;
+    margin: 0%;
+    padding: 0%;
+}
+.moviesonnetflix p{
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+.moviesonnetflix{
+    width: 400px;
+    margin-left: 30px;
+}
+.moviesonnetflix span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+}
+.moviesonnetflix p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonnetflix span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.moviesonnetflix .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.secondrow{
+    display: flex;
+    margin-top: 40px;
+}
+.browse>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.browsemovies .lists li{
+    color: white;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    border: 1px solid white;
+}
+.browsemovies .lists{
+    display: flex;
+}
+.browsemovies .lists .firstone{
+    display: flex;
+    gap: 20px;
+}
+.browsemovies .lists .secondone{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.browsemovies .lists li:hover{
+    cursor: pointer;
+    background-color: #232323;
+}
+.browsemovies{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.recommendations p{
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.recommendations .column{
+    width: 3px;
+    height: 38px;
+    background-color: yellow;
+    margin: 0%;
+    margin-top: 2px;
+}
+.recommendations{
+    display: flex;
+    gap: 12px;
+}
+.discovergreatmovies>p{
+    color: gray;
+    font-size: 19px;
+    margin-left: 16px;
+    margin-top: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row1 .staffpicks .movies img{
+    height: 170px;
+    margin: 0%;
+    padding: 0%;
+}
+.row1 .staffpicks p{
+    color: white;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.row1 .staffpicks span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.row1 .staffpicks p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row1 .staffpicks span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row1 .staffpicks .movies:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.animes .anime img{
+    height: 200px;
+}
+.animes p{
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.animes span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.animes p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.animes span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.animes .anime:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.terrifier .watchlistthis img{
+    height: 200px;
+}
+.terrifier p{
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.terrifier span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.terrifier p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.terrifier span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.terrifier:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+.queer .thumbnail img{
+    height: 200px;
+}
+.queer p{
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.queer span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.queer p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.queer span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.queer .thumbnail:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.adaptations .thumbnail img{
+    height: 200px;
+}
+.adaptations p{
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.adaptations span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.adaptations p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.adaptations span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.adaptations .thumbnail:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.familymovies .thumbnail img{
+    height: 200px;
+}
+.familymovies p{
+    color: white;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    margin-top: 10px;
+}
+.familymovies span{
+    color: skyblue;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.familymovies p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.familymovies span:hover{
+    color: skyblue;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.familymovies .thumbnail:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.row2{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.recentlyviewed>p{
+    color: white;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.norecently>p{
+    color: #dddddd;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.signinformoreaccess>p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+}
+.signinformoreaccess{
+    background-color: yellow;
+    border-radius: 30px;
+    width: 300px;
+    margin-left: 38%;
+    margin-top: 50px;
+    height: 30px;
+}
+.firstblock .follow p{
+    color: white;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.firstblock .socials .fb{
+    height: 30px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+.firstblock .socials .yt{
+    height: 70px;
+}
+.firstblock .socials{
+    margin: 0%;
+    margin-left: 80px;
+    margin-top: -30px
+}
+.firstblock{
+    border-radius: 30px;
+    height: 130px;
+    width: 310px;
+    border: 2px solid #dddddd;
+}
+.secondblock .getapp .gettheimdbapp{
+    color: white;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.secondblock .getapp .for{
+    color: #dddddd;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+.secondblock .qr img{
+    height: 40px;
+    margin-left: 260px;
+    position: relative;
+    bottom: 65px;
+    right: 10px;
+}
+.secondblock{
+    border-radius: 30px;
+    height: 130px;
+    width: 310px;
+    border: 2px solid #dddddd;
+}
+.followsocials{
+    display: flex;
+    margin-left: 300px;
+    gap: 30px;
+    margin-top: 30px;
+}
+.footerlines .firstline p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.footerlines .firstline{
+    display: flex;
+    margin-left: 300px;
+    gap: 50px;
+    margin-top: 50px;
+}
+.footerlines .firstline p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footerlines .secondline p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+.footerlines .secondline{
+    display: flex;
+    margin-left: 170px;
+    gap: 50px;
+    
+}
+.footerlines .secondline p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.amazon p{
+    color: white;
+    font-family: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.amazon span{
+    font-weight: 800;
+}
+.inc p{
+    color: gray;
+    font-family: 14px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
